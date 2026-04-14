@@ -1,0 +1,63 @@
+/* Ensure the shelf doesn't block the body gradient from styles.css */
+#shelf {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: transparent; /* Changed from #fdfdfd to show your gradient */
+}
+
+.shelf-header {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#books-grid {
+  display: grid;
+  /* This creates the responsive grid */
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 50px;
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: 0 auto; /* Centers the grid on the page */
+}
+
+.book-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.book-tile:hover {
+  transform: translateY(-8px);
+}
+
+.book-cover {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  border-radius: 5px;
+}
+
+.book-title {
+  margin-top: 15px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.7); /* Adds readability over the gradient */
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.category-header {
+  grid-column: 1 / -1;
+  text-align: left;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+  margin-top: 30px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="styles/styles.css" rel="stylesheet">
+        <link href="styles/books.css" rel="stylesheet">
+        <script src="script.js" defer></script>
+        <title>Viliam P</title>
+    </head>
+    <body>
+        <nav id="navbar">
+            <ul class="nav-list">
+                <li>
+                    <a href="/">About</a>
+                </li>
+                <li>
+                    <a href="/projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="/books.html">Books</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section id="shelf">
+                <h1 class="shelf-header">Books I have read</h1>
+                <h3>(as of April 2026)</h3>
+                <button id="randomQuote" type="button" class="btn btn-outline-dark">
+                    Random Quote
+                </button>
+        
+                <div id="books-grid">
+                    <div class="category-header">Technical & Logic</div>
+        
+                    <div class="book-tile">
+                        <img src="images/fundamentals_data_engineering.jpeg" alt="Fundamentals of Data Engineering" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> A comprehensive look at the data engineering lifecycle. It helped clarify how to manage data as a product from source to storage.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/tpp20.jpg" alt="The Pragmatic Programmer" class="book-cover" loading="lazy" />
+                        <p class="book-title">This book has taught me to never stop learning, to know my audience, how to estimate, to remove dead code regularly and to finish what I start.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/clean_code.jpg" alt="Clean Code" class="book-cover" loading="lazy" />
+                        <p class="book-title">I've learned that simpler is always better, to follow the boy scout rule and to always look for the root cause.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/explain_cloud_like_im_10.jpg" alt="Explain the Cloud Like I'm 10" class="book-cover" loading="lazy" />
+                        <p class="book-title">I've learned why Netflix is so good at delivering content - their CDN, moving to AWS. I explored concepts of scalable computing, cloud service, it was an easy read.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/algorithms_to_live_by.jpg" alt="Algorithms to live by" class="book-cover" loading="lazy" />
+                        <p class="book-title">I became familiar with various algorithms and their application to real-life problems, namely Optimal stopping - 37% rule, Explore/exploit, Sorting theory, Caching theory, Scheduling theory and Game theory.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/mind_for_numbers.jpg" alt="A Mind for Numbers" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> Explores techniques for mastering math and science. The focus on diffuse vs. focused thinking is a game-changer for problem solving.</p>
+                    </div>
+        
+                    <div class="category-header">Growth & Parenting</div>
+        
+                    <div class="book-tile">
+                        <img src="images/atomic_habits.jpg" alt="Atomic habits" class="book-cover" loading="lazy" />
+                        <p class="book-title">This book inspired me to make reading a habit using habit stacking. Your habits are a reflection of your current identity.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/positive_discipline.jpg" alt="Positive Discipline" class="book-cover" loading="lazy" />
+                        <p class="book-title">Positive Discipline is a marvelous approach to raising children - be kind but be firm. I learned a lot about common behavior in children: anger tantrums, power struggles etc.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/how_to_talk_kids.jpg" alt="How to Talk So Little Kids Will Listen" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> A survival guide for parents of young children. It offers actionable strategies for communication that foster cooperation and empathy.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/7_effective_habits.jpg" alt="7 Habits" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> A timeless look at personal effectiveness. Focuses on being proactive and beginning with the end in mind.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/set_boundaries.jpg" alt="Set Boundaries Find Peace" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> A clear guide on how to identify and express your needs. Essential for maintaining healthy personal and professional relationships.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/5_love_languages.jpg" alt="The 5 Love Languages" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> Outlines different ways people express and receive love. A useful tool for improving communication in any relationship.</p>
+                    </div>
+        
+                    <div class="category-header">Science & Society</div>
+        
+                    <div class="book-tile">
+                        <img src="images/bad_bananas.jpg" alt="How Bad Are Bananas" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> Provides a fascinating breakdown of the carbon footprint of everyday things, helping to put environmental impact into perspective.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/breakneck_china.jpg" alt="Breakneck China" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> An exploration of China's rapid infrastructure and technological growth, highlighting the scale of modern engineering challenges.</p>
+                    </div>
+        
+                    <div class="category-header">Information & History</div>
+
+                    <div class="book-tile">
+                        <img src="images/nexus.jpeg" alt="Nexus: A Brief History of Information Networks" class="book-cover" loading="lazy" />
+                        <p class="book-title">
+                            <strong>[AI-Generated]</strong> A deep look at how information networks have shaped our world, from the Stone Age to the rise of AI. It challenges the idea that more information always leads to more wisdom.
+                        </p>
+                    </div>
+
+                    <div class="category-header">Fiction & Fantasy</div>
+        
+                    <div class="book-tile">
+                        <img src="images/babel.png" alt="Babel" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> A dark academic fantasy that dives into the power of language and the history of colonial expansion through a magical lens.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/dungeon_crawler_carl.jpeg" alt="Dungeon Crawler Carl" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> A chaotic and hilarious LitRPG where humanity must survive a televised galactic dungeon crawl. Ridiculously fun.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/mistborn.jpg" alt="Mistborn" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> Reading these in German (Kinder des Nebels / Krieger des Feuers). Sanderson’s world-building remains top-tier across any language.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/fantasy_lotr.jpg" alt="Lord of the Rings" class="book-cover" loading="lazy" />
+                        <p class="book-title">The Lord of The Rings is a timeless gem of fantasy genre. The series was among the first advanced books which I read in English.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/witcher_series.png" alt="The Witcher" class="book-cover" loading="lazy" />
+                        <p class="book-title">Read 3-times over, this 9-book series captivated me during my teenage years.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/shepherd_king.jpg" alt="Shepherd King Duology" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> A dark, romantic fantasy duology with a magic system centered around a deck of ancient, cursed cards.</p>
+                    </div>
+        
+                    <div class="category-header">The Classics & Dystopia</div>
+        
+                    <div class="book-tile">
+                        <img src="images/classics_animal_farm.jpg" alt="Animal Farm" class="book-cover" loading="lazy" />
+                        <p class="book-title">Animal Farm helped me to better understand how people felt about socialistic regime. “All animals are equal, but some animals are more equal than others.”</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/classics_20k_leagues.jpg" alt="20,000 Leagues Under the Sea" class="book-cover" loading="lazy" />
+                        <p class="book-title">This journey through the depths of the ocean told in a thrilling way was fascinating. I was fully immersed in the story.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/el_principito.jpg" alt="El principito" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> Reading this in Spanish. A beautiful and philosophical story about a young prince visiting various planets, reminding us of what is invisible to the eye.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/brave_new_world.jpg" alt="Brave New World" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> A classic dystopian novel that depicts a future society driven by consumption, stability, and genetic engineering.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/classics_the_handmaids_tale.jpg" alt="The Handmaid's Tale" class="book-cover" loading="lazy" />
+                        <p class="book-title">Dystopian society where women are treated merely as servants to help around the house and to reproduce.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/classics_western_front.jpg" alt="All Quiet on the Western Front" class="book-cover" loading="lazy" />
+                        <p class="book-title">Depicting the western front during the Great War, this book has displayed the horrors of war from a completely new perspective.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/classics_dracula.jpg" alt="Dracula" class="book-cover" loading="lazy" />
+                        <p class="book-title">I enjoy fantasy, so reading about vampires, even in old english was fun.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/classics_heart_of_darkness.jpg" alt="Heart of Darkness" class="book-cover" loading="lazy" />
+                        <p class="book-title">Aboard the steamer I ventured into the heart of Africa and was exposed to the evils of imperialism.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/classics_lost_world.jpg" alt="Lost World" class="book-cover" loading="lazy" />
+                        <p class="book-title">Working on yourself to impress others is not worth it - do it for yourself. Also dinosaurs are cool.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/classics_jekyll_and_hyde.png" alt="Dr Jekyll and Mr Hyde" class="book-cover" loading="lazy" />
+                        <p class="book-title">Dr Jekyll and Mr Hyde is a classic sci-fi book with elements of horror. Good read overall.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/classics_time_machine.jpg" alt="Time Machine" class="book-cover" loading="lazy" />
+                        <p class="book-title">Exploring the future of degenerated human race was a fun read.</p>
+                    </div>
+        
+                    <div class="book-tile">
+                        <img src="images/Before_the_Coffee_Gets_Cold.png" alt="Before the Coffee Gets Cold" class="book-cover" loading="lazy" />
+                        <p class="book-title"><strong>[AI-Generated]</strong> A poignant Japanese novel about a café that allows people to travel back in time for one last conversation.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <!-- Copyright, etc. -->
+        </footer>
+    </body>
+</html>
